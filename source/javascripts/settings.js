@@ -2,14 +2,22 @@ var MEME_SETTINGS = {
   creditText: 'Photo by', // Default "credits" text.
   creditSize: 12, // Font size for credit text.
   downloadName: 'share', // The name of the downloaded image file (will have a ".png" extension added).
-  fontColor: 'white', // Universal font color.
 
   // Universal font family for texts:
   // Note that you'll need to included quoted font names as you would in CSS, ie: '"Knockout 28 B"'.
   fontFamily: 'Oswald',
   // Font family options: set to empty array to disable font selector.
   // These options may also be formatted as {text:'Knockout', value:'"Knockout 28 B"'}.
-  fontFamilyOpts: ['Oswald', 'Georgia'],
+  fontFamilyOpts: [{
+    text: 'Oswald - statesman.com',
+    value: 'Oswald'
+  }, {
+    text: 'Georgia - politifact.com',
+    value: 'Georgia'
+  }, {
+    text: 'Ubuntu - hookem.com',
+    value: 'Ubuntu'
+  }],
 
   // Font size of main headline:
   fontSize: 24,
@@ -73,7 +81,8 @@ var MEME_SETTINGS = {
   watermarkOpts: [
     {text: 'Statesman', value: 'source/images/statesman.png', data: ''},
     {text: 'MyStatesman', value: 'source/images/mystatesman.png', data: ''},
-    {text: 'Hookem.com', value: 'source/images/hookem.png', data: ''},
+    {text: 'Hookem.com (white)', value: 'source/images/hookem.png', data: ''},
+    {text: 'Hookem.com (color)', value: 'source/images/hookem-color.png', data: ''},
     {text: 'Austin360', value: 'source/images/austin360.png', data: ''},
     {text: 'Austin360 app', value: 'source/images/austin360app.png', data: ''},
     {text: 'Ahora Si', value: 'source/images/ahorasi.png', data: ''},
