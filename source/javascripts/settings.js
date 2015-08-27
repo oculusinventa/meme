@@ -73,6 +73,7 @@ var MEME_SETTINGS = {
   watermarkOpts: [
     {text: 'Statesman', value: 'source/images/statesman.png', data: ''},
     {text: 'MyStatesman', value: 'source/images/mystatesman.png', data: ''},
+    {text: 'Hookem.com', value: 'source/images/hookem.png', data: ''},
     {text: 'Austin360', value: 'source/images/austin360.png', data: ''},
     {text: 'Austin360 app', value: 'source/images/austin360app.png', data: ''},
     {text: 'Ahora Si', value: 'source/images/ahorasi.png', data: ''},
