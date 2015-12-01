@@ -15,6 +15,7 @@ Statesman images, fonts, etc. are currently in the app so you'll need to follow 
 1. Edit the settings file at `source/javascripts/settings.js`.
 2. Add any fonts you'll need at `source/stylesheets/_fonts.scss`.
 3. `npm install`
+4. `gem install compass`
 4. Run `grunt`
 5. *Optional:* Deploy to [GitHub pages](https://pages.github.com/) with `git push origin master:gh-pages`.
 6. Open the `index.html` file (or your GitHub pages URL) in your browser and meme away.
