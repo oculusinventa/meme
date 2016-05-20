@@ -23,7 +23,7 @@ var MEME_SETTINGS = {
   fontSize: 24,
   // Font size options: set to empty array to disable font-size selector.
   fontSizeOpts: [
-    {text: 'Small text', value: 14},
+    {text: 'Small text', value: 18},
     {text: 'Medium text', value: 24},
     {text: 'Large text', value: 36}
   ],
@@ -50,8 +50,8 @@ var MEME_SETTINGS = {
     height: 378
   }, {
     label: 'Facebook',
-    width: 755,
-    height: 393
+    width: 705,
+    height: 369
   }, {
     label: 'Instagram',
     width: 612,
