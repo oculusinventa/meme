@@ -17,6 +17,9 @@ var MEME_SETTINGS = {
   }, {
     text: 'Ubuntu - hookem.com',
     value: 'Ubuntu'
+  }, {
+    text: 'Roboto - 512tech.com',
+    value: 'Roboto'
   }],
 
   // Font size of main headline:
@@ -85,6 +88,7 @@ var MEME_SETTINGS = {
     {text: 'Hookem.com (color)', value: 'source/images/hookem-color.png', data: ''},
     {text: 'Austin360', value: 'source/images/austin360.png', data: ''},
     {text: 'Austin360 app', value: 'source/images/austin360app.png', data: ''},
+    {text: '512tech', value: 'source/images/512tech.png', data: ''},
     {text: 'Ahora Si', value: 'source/images/ahorasi.png', data: ''},
     {text: 'PolitiFact Texas (color)', value: 'source/images/politifact.png', data: ''},
     {text: 'PolitiFact Texas (white)', value: 'source/images/politifact-white.png', data: ''},
