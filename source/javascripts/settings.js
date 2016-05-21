@@ -17,13 +17,16 @@ var MEME_SETTINGS = {
   }, {
     text: 'Ubuntu - hookem.com',
     value: 'Ubuntu'
+  }, {
+    text: 'Roboto - 512tech.com',
+    value: 'Roboto'
   }],
 
   // Font size of main headline:
   fontSize: 24,
   // Font size options: set to empty array to disable font-size selector.
   fontSizeOpts: [
-    {text: 'Small text', value: 14},
+    {text: 'Small text', value: 18},
     {text: 'Medium text', value: 24},
     {text: 'Large text', value: 36}
   ],
@@ -43,15 +46,15 @@ var MEME_SETTINGS = {
   overlayColorOpts: ['#000', '#777', '#1368b2', '#98012e', '#62b246', '#1955a5', '#BF5700'],
   paddingRatio: 0.05, // Percentage of canvas width to use as edge padding.
 
-  // Size options: these are some sane defaults for the three social networks
+  // Size options: these are some sane defaults for the three social networks.
   sizeOpts: [{
     label: 'Twitter',
     width: 755,
     height: 378
   }, {
     label: 'Facebook',
-    width: 755,
-    height: 393
+    width: 705,
+    height: 369
   }, {
     label: 'Instagram',
     width: 612,
@@ -85,9 +88,11 @@ var MEME_SETTINGS = {
     {text: 'Hookem.com (color)', value: 'source/images/hookem-color.png', data: ''},
     {text: 'Austin360', value: 'source/images/austin360.png', data: ''},
     {text: 'Austin360 app', value: 'source/images/austin360app.png', data: ''},
+    {text: '512tech (white)', value: 'source/images/512tech-white.png', data: ''},
+    {text: '512tech (color)', value: 'source/images/512tech.png', data: ''},
     {text: 'Ahora Si', value: 'source/images/ahorasi.png', data: ''},
-    {text: 'PolitiFact Texas (color)', value: 'source/images/politifact.png', data: ''},
     {text: 'PolitiFact Texas (white)', value: 'source/images/politifact-white.png', data: ''},
+    {text: 'PolitiFact Texas (color)', value: 'source/images/politifact.png', data: ''},
     {text: 'Bastrop Advertiser', value: 'source/images/bastrop.png', data: ''},
     {text: 'Lake Travis View', value: 'source/images/laketravis.png', data: ''},
     {text: 'Pflugerville Pflag', value: 'source/images/pflugerville.png', data: ''},
