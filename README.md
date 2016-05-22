@@ -27,4 +27,6 @@ A local server should open at `http://localhost:8000/` where you can use the too
 
 We run the project through [GitHub pages](https://pages.github.com/) to allow access to the newsroom. We deploy this with `git push origin master:gh-pages`.
 
+As of May 2016, we have been merging changes only into the statesman master branch, and have not been pulling any Vox changes in. So be careful if you merge in future changes ... I'm not sure what would happen. - @critmcdonald
+
 See the original repo at https://github.com/voxmedia/meme for additional info.
