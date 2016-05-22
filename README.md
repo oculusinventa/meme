@@ -6,6 +6,11 @@ The Statesman's meme generator is a lightly-modified fork of the [Vox meme gener
 
 Assets are now built using Grunt, which transpiles the SASS files and concatenates/minifies the JavaScript. We modified the app this way to make it more easily deployable on our internal infrastructure.
 
+To assist in development, the default Grunt task also:
+  * launches a local server at `http://localhost:8000/`
+  * starts `grunt-contrib-watch` to watch `index.html` and the .js files in `/source`
+  * Livereload is enabled if you are running the [browser extenstions](http://livereload.com/extensions/)]].
+
 ![screenshot](readme.png)
 
 ## Deploying
@@ -17,7 +22,11 @@ Statesman images, fonts, etc. are currently in the app so you'll need to follow 
 3. `npm install`
 4. `gem install compass`
 5. Run `grunt`
-6. *Optional:* Deploy to [GitHub pages](https://pages.github.com/) with `git push origin master:gh-pages`.
-7. Open the `index.html` file (or your GitHub pages URL) in your browser and meme away.
+
+A local server should open at `http://localhost:8000/` where you can use the tool locally.
+
+We run the project through [GitHub pages](https://pages.github.com/) to allow access to the newsroom. We deploy this with `git push origin master:gh-pages`.
+
+As of May 2016, we have been merging changes only into the statesman master branch, and have not been pulling any Vox changes in. So be careful if you merge in future changes ... I'm not sure what would happen. - @critmcdonald
 
 See the original repo at https://github.com/voxmedia/meme for additional info.
