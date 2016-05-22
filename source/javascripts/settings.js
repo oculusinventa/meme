@@ -93,6 +93,7 @@ var MEME_SETTINGS = {
     {text: 'Ahora Si', value: 'source/images/ahorasi.png', data: ''},
     {text: 'PolitiFact Texas (white)', value: 'source/images/politifact-white.png', data: ''},
     {text: 'PolitiFact Texas (color)', value: 'source/images/politifact.png', data: ''},
+    {text: 'PolitiFact Texas (truth)', value: 'source/images/politifact-truth-o-meter.png', data: ''},
     {text: 'Bastrop Advertiser', value: 'source/images/bastrop.png', data: ''},
     {text: 'Lake Travis View', value: 'source/images/laketravis.png', data: ''},
     {text: 'Pflugerville Pflag', value: 'source/images/pflugerville.png', data: ''},
