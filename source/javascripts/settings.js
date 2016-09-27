@@ -43,7 +43,7 @@ var MEME_SETTINGS = {
   // Image overlay color, or blank ('') for no overlay:
   overlayColor: '',
   // Overlay color options: set to empty array to disable overlay options selector.
-  overlayColorOpts: ['#000', '#777', '#1368b2', '#98012e', '#62b246', '#1955a5', '#BF5700'],
+  overlayColorOpts: ['#000', '#777', '#1368b2', '#98012e', '#62b246', '#1955a5', '#BF5700', '#dd2228'],
   paddingRatio: 0.05, // Percentage of canvas width to use as edge padding.
 
   // Size options: these are some sane defaults for the three social networks.
