@@ -86,7 +86,7 @@ var MEME_SETTINGS = {
     {text: 'MyStatesman', value: 'source/images/mystatesman.png', data: ''},
     {text: 'Hookem.com (white)', value: 'source/images/hookem.png', data: ''},
     {text: 'Hookem.com (color)', value: 'source/images/hookem-color.png', data: ''},
-    {text: 'Austin360', value: 'source/images/austin360.png', data: ''},
+    {text: 'Austin360', value: 'source/images/logo-austin360-white.png', data: ''},
     {text: 'Austin360 app', value: 'source/images/austin360app.png', data: ''},
     {text: '512tech (white)', value: 'source/images/512tech-white.png', data: ''},
     {text: '512tech (color)', value: 'source/images/512tech.png', data: ''},
