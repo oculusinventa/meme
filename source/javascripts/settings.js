@@ -84,8 +84,6 @@ var MEME_SETTINGS = {
   watermarkOpts: [
     {text: 'Statesman', value: 'source/images/statesman.png', data: ''},
     {text: 'MyStatesman', value: 'source/images/mystatesman.png', data: ''},
-    {text: 'Hookem+ (white)', value: 'source/images/hookemplus-white.png', data: ''},
-    {text: 'Hookem+ (color)', value: 'source/images/hookemplus-color.png', data: ''},
     {text: 'Hookem.com (white)', value: 'source/images/hookem.png', data: ''},
     {text: 'Hookem.com (color)', value: 'source/images/hookem-color.png', data: ''},
     {text: 'Austin360', value: 'source/images/logo-austin360-white.png', data: ''},
